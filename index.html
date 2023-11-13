@@ -1,13 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <button id="search-btn">Search</button>
-    <script src="app.js"></script>
-</body>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="page-title">AVENGERS CHARACTER SEARCH</h1>
+
+    <div id="container">
+      <div class="search-components">
+
+        <input
+          id="search-field"
+          placeholder="enter name or alias of character to search"
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <h2>Result</h2>
+      <div id="all-heroes"></div>
+      <div id="single-hero"></div>
+      <script src="app.js"></script>
+    </div>
+  </body>
 </html>
